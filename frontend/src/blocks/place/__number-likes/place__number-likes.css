@@ -1,0 +1,11 @@
+.place__number-likes {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 3px 0 0 0;
+    padding: 0;
+    min-height: 13px;
+    min-width: 10px;
+    color: #000000;
+    /* margin-right: 18px; */
+}

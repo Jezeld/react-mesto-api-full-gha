@@ -1,0 +1,7 @@
+.place__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 35px;
+    margin-right: 20px;
+}

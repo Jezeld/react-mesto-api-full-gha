@@ -1,0 +1,13 @@
+.error-page {
+    margin: 0;
+    width: 100%;
+    min-height: 600px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://freefrontend.com/assets/img/html-css-404-page-templates/Sad-Mac-404-Error-Page.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }

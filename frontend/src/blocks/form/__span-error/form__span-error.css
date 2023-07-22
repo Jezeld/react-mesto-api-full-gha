@@ -1,0 +1,11 @@
+.form__span-error {
+    margin: 5px 0px 6px 0px;
+    line-height: 12px;
+    min-height: 24px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    display:inline-block;
+    color: rgba(255, 0, 0, 1);
+}

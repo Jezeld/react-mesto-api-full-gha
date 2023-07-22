@@ -1,0 +1,14 @@
+.profile__change-avatar_icon {
+    background-color: rgba(0, 0, 0, .8);
+    background-image: url("./../../../../images/pencil.png");
+    background-size: 26px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.profile__change-avatar_icon:hover {
+    opacity: 1;
+}

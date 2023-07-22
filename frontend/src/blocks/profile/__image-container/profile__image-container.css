@@ -1,0 +1,5 @@
+.profile__image-container {
+    border-radius: 50%;
+    position: relative;
+    min-width: 120px;
+}

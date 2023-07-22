@@ -1,0 +1,16 @@
+.place__urn {
+    background-image: url("./../../../images/urn.svg");
+    min-width: 18px;
+    aspect-ratio: 1/1.06;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.place__urn:hover {
+    opacity: 0.5;
+}

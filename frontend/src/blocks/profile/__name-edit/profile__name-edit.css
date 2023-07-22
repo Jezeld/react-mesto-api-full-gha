@@ -1,0 +1,18 @@
+.profile__name-edit {
+    display: flex;
+    flex-direction: row;
+    max-width: 336px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 700px) {
+    .profile__name-edit {
+        max-width: 282px;
+        width: 100%;
+        position: relative;
+        justify-content: flex-end;
+        left: 21px;
+    }
+}
+

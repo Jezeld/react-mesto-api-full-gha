@@ -1,0 +1,17 @@
+.header__logo {
+    margin: 0px;
+    aspect-ratio: 4.3/1;
+    background-image: url("./../../../images/logo.svg");
+    max-width: 142px;
+    width: 100%;
+    background-repeat: no-repeat;
+    align-items: flex-start;
+    background-size: contain;
+}
+
+@media screen and (max-width: 881px) {
+    .header__logo {
+        margin-left: 27px;
+        max-width: 104px;
+    }
+}
