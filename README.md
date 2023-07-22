@@ -8,8 +8,8 @@
 
 ## Ссылки на проект
 
-IP-адрес: 158.160.0.180
+IP-адрес 158.160.0.180
 
-Frontend: http://mesto.jezeld.nomoredomains.xyz
+Frontend http://mesto.jezeld.nomoredomains.xyz
 
-Backend: http://api.mesto.jezeld.nomoredomains.xyz
+Backend http://api.mesto.jezeld.nomoredomains.xyz
