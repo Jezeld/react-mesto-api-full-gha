@@ -98,3 +98,21 @@ lerna-debug.log
 Thumbs.db
 
 mycmd.md
+
+# Logs
+logs
+*.log
+npm-debug.log*
+.env
+
+# Dependency directory
+
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.DS_Store
+.idea
+.vscode
+# .github/workflows
