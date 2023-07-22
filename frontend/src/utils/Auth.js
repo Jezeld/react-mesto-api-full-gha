@@ -47,7 +47,7 @@ class Auth {
 }
 
 const auth = new Auth({
-  baseUrl: 'http://localhost:3000',
+  baseUrl: 'http://api.mesto.jezeld.nomoredomains.xyz',
   headers: {
     'Content-Type': 'application/json'
   }

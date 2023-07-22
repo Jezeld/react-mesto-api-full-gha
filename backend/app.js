@@ -28,13 +28,13 @@ app.use(requestLogger); // подключаем логгер запросов
 
 app.use(require('./routes'));
 
-app.use(errorLogger); // подключаем логгер ошибок
-
-app.use(errors());
-
 app.use('*', (reg, res, next) => {
   next(new NotFoundError('Запрашиваемый ресурс не найден'));
 });
+
+app.use(errorLogger); // подключаем логгер ошибок
+
+app.use(errors());
 
 app.use(errorProcessor);
 
