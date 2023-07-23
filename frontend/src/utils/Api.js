@@ -51,22 +51,6 @@ class Api {
     })
   }
 
-  // deleteLike(cardid) {
-  //     return fetch(`${this._baseUrl}/cards/${cardid}/likes`, {
-  //         method: 'DELETE',
-  //         headers: this._headers
-  //     })
-  //         .then(this._checkResponse)
-  // }
-
-  // addLike(cardid) {
-  //     return fetch(`${this._baseUrl}/cards/${cardid}/likes`, {
-  //         method: 'PUT',
-  //         headers: this._headers
-  //     })
-  //         .then(this._checkResponse)
-  // }
-
   changeLike (cardId, isLiked) {
     if (isLiked) {
       return this._request(`${this._baseUrl}/cards/${cardId}/likes`, {

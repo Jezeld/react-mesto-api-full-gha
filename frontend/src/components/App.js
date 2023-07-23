@@ -124,7 +124,6 @@ function App () {
     return auth
       .register(data)
       .then(res => {
-        // console.log(res)
         setIsSuccessInfoTooltipStatus(true)
         openInfoTooltip()
         navigate('/sign-in')
@@ -140,7 +139,6 @@ function App () {
     return auth
       .login(data)
       .then(res => {
-        // console.log(res)
         localStorage.setItem('jwt', res.token)
         setUserEmail(data.email)
         setIsLoggedIn(true)
@@ -154,14 +152,12 @@ function App () {
 
     const handleTokenCheck = useCallback(() => {
     const jwt = localStorage.getItem('jwt')
-    // console.log('jwt', jwt)
     if (!jwt) {
       return
     }
     auth
       .checkToken(jwt)
       .then(res => {
-        // console.log(res)
         setUserEmail(res.email)
         setIsLoggedIn(true)
         navigate("/", {replace: true})
