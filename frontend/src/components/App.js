@@ -36,6 +36,7 @@ function App () {
     useState(false)
   const [userEmail, setUserEmail] = useState('')
 
+
   const navigate = useNavigate()
 
   useEffect(() => {
@@ -183,7 +184,7 @@ function App () {
   }
 
   function handleEditProfileClick () {
-    setIsEditProfilePopupOpen(true)
+    setIsEditProfilePopupOpen(true);
   }
 
   function handleEditAvatarClick () {

@@ -29,7 +29,6 @@ function Main ({
   //       .catch(err => console.log(err))
   //   }, [])
   const currentUser = useContext(CurrentUserContext)
-  //   console.log('cards', cards)
   return (
     <main className='content'>
       <section className='profile'>

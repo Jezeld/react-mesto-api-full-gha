@@ -103,7 +103,7 @@ mycmd.md
 logs
 *.log
 npm-debug.log*
-.env
+
 
 # Dependency directory
 

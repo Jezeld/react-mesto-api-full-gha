@@ -18,6 +18,11 @@ const createUser = (req, res, next) => {
       name, about, avatar, email, password: hash,
     }))
     .then((user) => res.status(201).send(user))
+    // .then((userPassword) => {
+    //   const user = userPassword.toObject();
+    //   delete user.password;
+    //   res.status(201).send(user);
+    // })
     .catch((err) => {
       if (err instanceof mongoose.Error.ValidationError) {
         next(new BadRequestError('Переданные данные некорректны'));
